@@ -1,0 +1,3 @@
+# 64546-MoeWa-Net.X
+# 44:d9:e7:07:24:36
+key "d2078efcd77fe93d013c7d24d6d707ff6931805b5d5c88bc73bc49aec8c1e44a"; 
