@@ -27,7 +27,7 @@ def ok(*arg):
 
 
 def key_from_file(fn):
-    with open(fn, 'r') as handle:
+    with open(fn, 'r', encoding='utf-8') as handle:
         for line in handle:
             line = line.strip()
             if line.startswith('#'):
