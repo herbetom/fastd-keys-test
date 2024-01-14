@@ -1,4 +1,0 @@
-# 64720-thierolf.org
-# ubiquiti-unifi-ac-lite
-# 74:ac:b9:63:f9:72
-key "f7e64f563485399c678183803df61c99514016cc7551e0c5edba2848c443767f";
