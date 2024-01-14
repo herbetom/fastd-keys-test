@@ -1,0 +1,31 @@
+name: Check Keys
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check_keys_sh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: install fastd
+        run: sudo apt install -y fastd
+
+      - name: run .check.sh
+        run: ./.check.sh
+
+  check_keys_py:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: install python3
+        run: sudo apt install -y python3-minimal
+
+      - name: run .check.py
+        run: ./.check.py
